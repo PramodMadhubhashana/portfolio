@@ -43,7 +43,7 @@ const Works = ({projects}) => {
                     <div className="xl:mx-0 text-center xl:text-left flex flex-col justify-center">
                         <div className="container flex justify-center ">
                             <p className="section-title bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle ">
-                                Latest Project
+                                Latest Projects
                             </p>
                         </div>
                         <div className="pt-5 text-center">
