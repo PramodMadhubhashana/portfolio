@@ -28,9 +28,6 @@ export async function getStaticProps() {
     }
 }
 
-
-
-
 const Works = ({projects}) => {
     if (!projects || projects.length === 0) {
         return (
