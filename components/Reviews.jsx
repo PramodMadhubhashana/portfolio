@@ -5,33 +5,8 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
+import { reviewData } from "@/ReviewData/Reviews";
 
-const reviewData = [
-  {
-    avater: '/assets/reviews/pngegg.png',
-    name: 'Pramod Madhubhashana',
-    email: 'abc@gmail.com',
-    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
-  },
-  {
-    avater: '/assets/reviews/pngegg.png',
-    name: 'Pramod Madhubhashana',
-    email: 'abc@gmail.com',
-    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
-  },
-  {
-    avater: '/assets/reviews/pngegg.png',
-    name: 'Pramod Madhubhashana',
-    email: 'abc@gmail.com',
-    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
-  },
-  {
-    avater: '/assets/reviews/pngegg.png',
-    name: 'Pramod Madhubhashana',
-    email: 'abc@gmail.com',
-    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
-  }
-];
 const Reviews = () => {
   return (
     <div className="flex flex-col pt-16 mb-12 xl:mb-24">

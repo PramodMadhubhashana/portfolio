@@ -6,36 +6,9 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
-import fetchMegaProjects from "@/Mega/Mega";
+import { projectData } from "@/ProjectData/ProjeectData";
 
-export async function getStaticProps() {
-    try {
-        const projects = await fetchMegaProjects(); // Make sure fetchMegaProjects returns a valid array
-        return {
-            props: {
-                projects: projects || [], // Ensure projects is not undefined
-            },
-            revalidate: 1,
-        };
-    } catch (error) {
-        console.error('Error fetching projects:', error);
-        return {
-            props: {
-                projects: [], // Return empty array or handle error case
-            },
-            revalidate: 1,
-        };
-    }
-}
-
-const Works = ({projects}) => {
-    if (!projects || projects.length === 0) {
-        return (
-            <div className="flex justify-center items-center h-screen">
-                <p>No projects found.</p>
-            </div>
-        );
-    }
+const Works = () => {
     return (
         <div className="flex flex-col container max-w-[1100px] relative pt-10">
             <div className="flex flex-col">
@@ -62,11 +35,13 @@ const Works = ({projects}) => {
                             slidesPerView: 2
                         }
                     }} spaceBetween={30} modules={[Pagination]} pagination={{ clickable: true }}>
-                        {projects.map((project, index) => {
+                        {projectData.slice(0.4).map((project, index) => {
                             return (
-                                <SwiperSlide key={index}>
-                                    <ProjectCard project={project} />
-                                </SwiperSlide>
+                                <div>
+                                    <SwiperSlide key={index}>
+                                        <ProjectCard project={project} />
+                                    </SwiperSlide>
+                                </div>
                             );
                         })}
                     </Swiper>
