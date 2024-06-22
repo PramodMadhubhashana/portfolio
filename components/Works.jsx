@@ -37,11 +37,9 @@ const Works = () => {
                     }} spaceBetween={30} modules={[Pagination]} pagination={{ clickable: true }}>
                         {projectData.slice(0.4).map((project, index) => {
                             return (
-                                <div>
-                                    <SwiperSlide key={index}>
-                                        <ProjectCard project={project} />
-                                    </SwiperSlide>
-                                </div>
+                                <SwiperSlide key={index}>
+                                    <ProjectCard project={project} />
+                                </SwiperSlide>
                             );
                         })}
                     </Swiper>
