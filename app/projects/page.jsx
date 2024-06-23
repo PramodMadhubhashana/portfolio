@@ -2,7 +2,7 @@
 import { projectData } from "@/ProjectData/ProjeectData";
 import ProjectCard from "@/components/ProjectCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import React, { useState } from "react"
+import {React, useState } from "react";
 
 
 const uniqueCategories = [
@@ -17,7 +17,7 @@ const Projects = () => {
     return category === 'all project' ? project : project.category === category;
   });
   return (
-    <div className="container pt-12 max-w-[1100px] bg-red-400 flex flex-col">
+    <div className="container pt-12 max-w-[1100px] flex flex-col">
       <div>
         <p className="section-title bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
           My Projects

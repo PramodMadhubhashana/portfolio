@@ -7,13 +7,4 @@ export const projectData = [
         link: '/',
         github: '/'
     },
-    {
-        image: '/assets/work/1717395285827.jpeg',
-        category: 'web37',
-        name: 'NextStyle',
-        description: 'pramod',
-        link: '/',
-        github: '/'
-    }
-
-]
+];
