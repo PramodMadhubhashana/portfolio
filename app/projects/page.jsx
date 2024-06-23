@@ -23,16 +23,16 @@ const Projects = () => {
           My Projects
         </p>
       </div>
-      <div className="pt-10 w-full m-0">
-        <Tabs defaultValue={category}>
-          <TabsList className="border flex flex-wrap justify-center gap-x-3 w-auto">
+      <div className="pt-10 w-full  items-center flex  justify-center m-0">
+        <Tabs defaultValue={category} className="flex flex-col items-center justify-center">
+          <TabsList className="border flex flex-wrap justify-around gap-x-3 w-[600px]">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
                   onClick={() => setCategory(category)}
                   value={category}
                   key={index}
-                  className="capitalize">{category}</TabsTrigger>
+                  className="capitalize w-auto">{category}</TabsTrigger>
               );
             })}
           </TabsList>
