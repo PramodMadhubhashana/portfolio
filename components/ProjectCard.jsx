@@ -11,8 +11,8 @@ const ProjectCard = ({ project }) => {
         <CardHeader className="p-0">
           <div className="relative w-full h-[300px] flex items-center justify-center bg-teriary overflow-hidden">
             <Image
-              className="absolute bottom-0 shadow-2xl object-cover "
-              src={project.image} // Make sure imageUrl is correct based on fetched data structure
+              className="absolute bottom-0 shadow-2xl object-contain h-full w-full"
+              src={project.image} 
               width={500}
               height={500}
               alt=''
