@@ -5,7 +5,33 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
-import { reviewData } from "@/ReviewData/Reviews";
+
+export const reviewData = [
+  {
+    avater: '/assets/reviews/pngegg.png',
+    name: 'Pramod Madhubhashana',
+    email: 'abc@gmail.com',
+    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
+  },
+  {
+    avater: '/assets/reviews/pngegg.png',
+    name: 'Pramod Madhubhashana',
+    email: 'abc@gmail.com',
+    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
+  },
+  {
+    avater: '/assets/reviews/pngegg.png',
+    name: 'Pramod Madhubhashana',
+    email: 'abc@gmail.com',
+    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
+  },
+  {
+    avater: '/assets/reviews/pngegg.png',
+    name: 'Pramod Madhubhashana',
+    email: 'abc@gmail.com',
+    review: 'Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana Pramod Madhubhashana'
+  }
+];
 
 const Reviews = () => {
   return (
