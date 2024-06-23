@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
               src={project.image} // Make sure imageUrl is correct based on fetched data structure
               width={500}
               height={500}
-              alt={name}
+              alt=''
               priority
               
             />
