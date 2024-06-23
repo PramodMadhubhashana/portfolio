@@ -13,7 +13,7 @@ const Cta = () => {
                     </p>
                 </div>
                 <div className='pt-10'>
-                    <Link href='/contact'>
+                    <Link href='/contact' passHref>
                         <Button className='bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>Contact Me <Send size={18} /></Button>
                     </Link>
                 </div>

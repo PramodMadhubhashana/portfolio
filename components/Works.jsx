@@ -23,7 +23,7 @@ const Works = () => {
                             <p>Explore my latest project, where I applied my skills in mobile and web development to create impactful software solutions.</p>
                         </div>
                         <div className="py-10 justify-center flex">
-                            <Link href='/project'>
+                            <Link href='/projects' passHref>
                                 <Button className='bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>All Project</Button>
                             </Link>
                         </div>
