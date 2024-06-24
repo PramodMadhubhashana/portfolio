@@ -19,7 +19,7 @@ const Service = () => {
         <div className="flex flex-col container max-w-[1100px] pt-10">
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
-                    <p className="text-2xl sm:text-4xl sm:pb-4 font-bold relative bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
+                    <p className="text-2xl sm:text-4xl sm:pb-4 font-bold relative gradient-text align-middle justify-center ">
                         My Service
                     </p>
                 </div>

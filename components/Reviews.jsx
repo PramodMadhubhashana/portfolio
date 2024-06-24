@@ -12,7 +12,7 @@ const Reviews = () => {
     <div className="flex flex-col pt-10 sm:pt-16 mb-12 xl:mb-24">
       <div className="container mx-auto">
         <div className="container flex justify-center ">
-          <p className="text-2xl sm:text-4xl font-bold relative bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle ">
+          <p className="text-2xl sm:text-4xl font-bold relative gradient-text align-middle ">
             Reviews
           </p>
         </div>

@@ -15,7 +15,7 @@ const Works = () => {
                 <div className="flex justify-center">
                     <div className="xl:mx-0 text-center xl:text-left flex flex-col justify-center">
                         <div className="container flex justify-center ">
-                            <p className="text-2xl sm:text-4xl font-bold relative bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle ">
+                            <p className="text-2xl sm:text-4xl font-bold relative gradient-text align-middle ">
                                 Latest Projects
                             </p>
                         </div>

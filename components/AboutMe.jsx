@@ -156,7 +156,7 @@ const AboutMe = () => {
             <div className="bg-blue-700 absolute left-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[80.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
-                    <p className="text-2xl sm:text-4xl font-bold relative flex items-start bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
+                    <p className="text-2xl sm:text-4xl font-bold relative flex items-start gradient-text align-middle justify-center ">
                         About me
                     </p>
                 </div>

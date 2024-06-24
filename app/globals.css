@@ -81,7 +81,7 @@
   @apply text-4xl font-bold relative flex items-start; 
 }
 .gradient-text {
-  background: linear-gradient(to right, #2563eb, #10b981, #6366f1); /* Adjust colors as needed */
+  background: linear-gradient(to right, #265dd2, #07D2FB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
