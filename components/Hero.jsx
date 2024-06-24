@@ -15,7 +15,7 @@ const Hero = () => {
                         {/* Text */}
                         <div className="text-sm uppercase font-semibold mb-4 text-blue-700 tracking-[4px]">Mobile Developer / Web Developer</div>
                         <div>
-                            <p className="text-[36px] font-bold">Hello, My name is <br /></p><p className=" h1 bg-gradient-to-r from-primary to-[#07D2FB] bg-clip-text align-middle justify-center flex-auto">Pramod Madhubhashana</p>
+                            <p className="text-[36px] font-bold">Hello, My name is <br /></p><p className=" h1 gradient-text inline-block align-middle justify-center flex-auto">Pramod Madhubhashana</p>
                         </div>
                         <p className="subtitle max-w-[490px]  ">
                         A Software Engineering undergraduate at the National Institute of Business Management, focuses on Android and web development, aiming to create impactful software solutions through continuous learning and innovation.
