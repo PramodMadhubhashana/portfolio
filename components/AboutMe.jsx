@@ -315,7 +315,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-blue-700 absolute right-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[30.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
+                <div className="bg-blue-700 absolute left-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[30.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
                 <div className="flex flex-col justify-center w-full pt-5">
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex flex-col pt-5">
