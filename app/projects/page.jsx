@@ -25,7 +25,7 @@ const Projects = () => {
       </div>
       <div className="pt-10 w-full  items-center flex  justify-center m-0">
         <Tabs defaultValue={category} className="flex flex-col items-center justify-center">
-          <TabsList className="border flex flex-wrap justify-around gap-x-3 w-[600px]">
+          <TabsList className="border flex flex-wrap justify-around gap-x-3">
             {categories.map((category, index) => {
               return (
                 <TabsTrigger
