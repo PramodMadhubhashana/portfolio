@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Pramod Madhubhashna - Mobile App and Web Developer',
   description: 'Pramod Madhubhashna - Mobile App and Web Developer. Specializing in Flutter, Kotlin, React Native for mobile development and HTML, CSS, PHP, Bootstrap, Tailwind CSS for web development.',
   url: 'https://www.pramodmadhubhashana.com/',
-  // image: 'https://your-portfolio-website.com/path-to-your-image.jpg',
+  image: '/assets/logo/meta.png',
   twitterHandle: '@P_madhubhashana',
   linkedinProfile: 'www.linkedin.com/in/pramod-madhubhashana',
 };
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
       <meta name="author" content="Pramod Madhubhashna" />
       <meta property="og:title" content={metadata.title} />
       <meta property="og:description" content={metadata.description} />
-      {/* <meta property="og:image" content={metadata.image} /> */}
+      <meta property="og:image" content={metadata.image} />
       <meta property="og:url" content={metadata.url} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={metadata.title} />
