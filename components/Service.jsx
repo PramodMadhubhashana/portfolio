@@ -17,6 +17,7 @@ const ServiceData = [
 const Service = () => {
     return (
         <div className="flex flex-col container max-w-[1100px] pt-10">
+                <div className="bg-blue-700 absolute left-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[30.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
                     <p className="text-2xl sm:text-4xl sm:pb-4 font-bold relative gradient-text align-middle justify-center ">

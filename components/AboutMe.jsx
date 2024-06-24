@@ -152,8 +152,7 @@ const AboutMe = () => {
         return arr.find((item) => item.title === title);
     };
     return (
-        <div className="shadow-2xl dark:bg-[#041120] py-4 container max-w-[1100px]">
-            <div className="bg-blue-700 absolute left-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[80.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
+        <div className="shadow-2xl dark:bg-[#041120] py-4 container max-w-[1100px]">            
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
                     <p className="text-2xl sm:text-4xl font-bold relative flex items-start gradient-text align-middle justify-center ">
@@ -316,6 +315,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
+                <div className="bg-blue-700 absolute right-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[30.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
                 <div className="flex flex-col justify-center w-full pt-5">
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex flex-col pt-5">
@@ -396,6 +396,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
+                
             </div>
 
         </div>
