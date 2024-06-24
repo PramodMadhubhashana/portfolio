@@ -60,10 +60,10 @@ const contact = () => {
           </div>
           <div>
             <div>
-              <h1 className="h1 max-w-md mb-8">Let's Work Together</h1>
+              <h1 className="text-4xl sm:text-5xl font-bold max-w-md mb-8">Let's Work Together</h1>
             </div>
             <div>
-              <p className="text-[20px] text-muted-foreground max-w-[480px]">
+              <p className="text-[16px] sm:text-[20px] text-muted-foreground max-w-[480px]">
                 Connect with me via WhatsApp, LinkedIn, Facebook, Instagram, Twitter, and GitHub for inquiries and collaboration.
               </p>
             </div>
@@ -78,7 +78,7 @@ const contact = () => {
           <div className="text-[16px]">
             {infoData.map((item, index) => {
               return (
-                <div className="flex items-center gap-x-4 mx-auto pb-5" key={index}>
+                <div className="flex items-center gap-x-4 mx-auto pb-5 text-[14px] sm:text-[16px]" key={index}>
                   <div className="text-blue-600">{item.icon}</div>
                   <div>{item.text}</div>
                 </div>
@@ -86,7 +86,7 @@ const contact = () => {
             })}
           </div>
           <div className="flex pt-5">
-            <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[30px] hover:text-primary transition-all' />
+            <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
           </div>
         </div>
         <div className="flex justify-center lg:justify-end w-full">
@@ -105,7 +105,7 @@ const contact = () => {
                 <MessageSquare className="absolute right-6 top-4" size={20} />
               </div>
               <div className="flex justify-center">
-                <Button type="submit" className='bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2 max-w-[250px] w-[250px]'>Let's Talk <ArrowRightIcon size={18} /></Button>
+                <Button type="submit" className='text-sm sm:text-[16px] bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2 max-w-[250px] w-[250px]'>Let's Talk <ArrowRightIcon size={18} /></Button>
               </div>
             </form>
 

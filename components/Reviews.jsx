@@ -9,10 +9,10 @@ import { reviewData } from "@/ReviewData/Reviews";
 
 const Reviews = () => {
   return (
-    <div className="flex flex-col pt-16 mb-12 xl:mb-24">
+    <div className="flex flex-col pt-10 sm:pt-16 mb-12 xl:mb-24">
       <div className="container mx-auto">
         <div className="container flex justify-center ">
-          <p className="section-title bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle ">
+          <p className="text-2xl sm:text-4xl font-bold relative bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle ">
             Reviews
           </p>
         </div>
@@ -36,13 +36,13 @@ const Reviews = () => {
                     <CardHeader className='p-0 mb-10'>
                       <div className="flex items-center gap-x-4">
                         <Image src={person.avater}
-                          width={70}
-                          height={70}
+                          width={30}
+                          height={30}
                           alt=""
                           priority
                         />
-                        <div className="flex flex-col">
-                          <CardTitle >{person.name}</CardTitle>
+                        <div className="flex flex-col overflow-hidden">
+                          <CardTitle className='text-xl overflow-hidden ' >{person.name}</CardTitle>
                           <p>{person.email}</p>
 
                         </div>

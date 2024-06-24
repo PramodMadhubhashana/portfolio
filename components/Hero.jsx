@@ -27,7 +27,7 @@ const Hero = () => {
                             <Button className=" bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2">Download CV <Download size={18} /></Button>
                         </div>
                         <div className="flex justify-center">
-                            <Socials containerStyles='flex gap-x-6 mx-auto relative pb-1' iconsStyle='text-foreground text-[30px] hover:text-primary transition-all' />
+                            <Socials containerStyles='flex gap-x-6 mx-auto relative pb-1' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
                         </div>
                     </div>
                     <div>

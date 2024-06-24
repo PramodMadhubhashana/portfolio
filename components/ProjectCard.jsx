@@ -49,7 +49,7 @@ const ProjectCard = ({ project }) => {
             <h4 className="h4 mb-1 font-bold">{project.name}</h4>
           </div>
           <div className="flex h-[280px]">
-            <p className="text-muted-foreground text-lg overflow-y-auto pt-2">
+            <p className="text-muted-foreground text-base sm:text-lg overflow-y-auto pt-2">
               {project.description}
             </p>
           </div>

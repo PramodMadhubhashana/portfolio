@@ -156,7 +156,7 @@ const AboutMe = () => {
             <div className="bg-blue-700 absolute left-[-65rem] dark:left-[-70rem] top-[21.65rem]-z-10 h-[80.25rem] w-[68.25rem] rounded-full blur-[10rem] dark:bg-[#07D2FB]"></div>
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
-                    <p className="section-title bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
+                    <p className="text-2xl sm:text-4xl font-bold relative flex items-start bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
                         About me
                     </p>
                 </div>
@@ -196,20 +196,20 @@ const AboutMe = () => {
                                     src="/assets/about/WhatsApp.png"
                                     width={350}
                                     height={400}
-                                    className="bg-gradient-to-r from-blue-500 to-[#07D2FB] custom-rounded2 w-[20rem] h-[20rem] md:w-[24rem] md:h-[24rem] flex"
+                                    className="bg-gradient-to-r from-blue-500 to-[#07D2FB] custom-rounded2 w-auto h-auto sm:w-[20rem] sm:h-[20rem] md:w-[24rem] md:h-[24rem] flex"
                                 />
                             </div>
                         </div>
                         <div className="flex flex-col pl-10 w-full items-center">
                             <div className="flex justify-center pt-10 lg:pt-0 flex-col">
-                                <div className="w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
-                                    <p className="uppercase font-bold text-white">Personal Information</p>
+                                <div className="w-[12rem] sm:w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
+                                    <p className="uppercase text-sm sm:text-[16px] font-bold text-white">Personal Information</p>
                                 </div>
                             </div>
                             <div className="flex flex-col justify-center">
                                 <div className="flex flex-col text-center pt-5">
                                     <p className="break-words overflow-x-auto text-xl font-bold">
-                                        Unmatched Service Quality for Over 10 Years
+                                        Unmatched Service Quality for Over 1 Years
                                     </p>
                                     <p className="subtitle pt-2">                                        
                                     Proficient in Android and web development, with a focus on creating impactful software solutions. Continuously enhancing skills and exploring latest technologies
@@ -220,7 +220,7 @@ const AboutMe = () => {
                                 <div className="pt-5 text-[16px]">
                                     {infoData.map((item, index) => {
                                         return (
-                                            <div className="flex items-center gap-x-4 mx-auto" key={index}>
+                                            <div className="flex items-center gap-x-4 mx-auto text-[14px] sm:text-[16px] " key={index}>
                                                 <div className="text-blue-600">{item.icon}</div>
                                                 <div>{item.text}</div>
                                             </div>
@@ -230,7 +230,7 @@ const AboutMe = () => {
                             </div>
                             <div className="flex justify-center flex-col">
                                 <div className="flex justify-center pt-10">
-                                    <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[30px] hover:text-primary transition-all' />
+                                    <Socials containerStyles='flex flex-row gap-x-4' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
                                 </div>
                             </div>
                         </div>
@@ -240,14 +240,14 @@ const AboutMe = () => {
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex flex-col pt-5">
                             <div className="flex justify-center">
-                                <div className="w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
-                                    <p className="uppercase font-bold text-white">Qualification</p>
+                                <div className="w-[12rem] sm:w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
+                                    <p className="uppercase text-sm sm:text-[16px] font-bold text-white">Qualification</p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col pt-5">
                             <div className="flex justify-center">
-                                <p className="font-bold text-center text-xl">My Awesome Journey</p>
+                                <p className="font-bold text-center text-[16px] sm:text-xl">My Awesome Journey</p>
                             </div>
                         </div>
                         <div className="pt-14 w-full">
@@ -272,7 +272,7 @@ const AboutMe = () => {
                                                                         <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                     </div>
                                                                     <div>
-                                                                        <div className="font-semibold text-lg lg:text-xl leading-none my-2">{qualification}</div>
+                                                                        <div className="font-semibold text-base sm:text-lg lg:text-xl leading-none my-2">{qualification}</div>
                                                                         <div className="text-sm  lg:text-lg leading-none  text-muted-foreground mb-2">{university}</div>
                                                                         <div className="text-sm lg:text-lg font-medium mb-4">{years}</div>
                                                                     </div>
@@ -300,7 +300,7 @@ const AboutMe = () => {
                                                                     <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                 </div>
                                                                 <div>
-                                                                    <div className="font-semibold text-lg lg:text-xl leading-none my-2">{Company}</div>
+                                                                    <div className="font-semibold text-base sm:text-lg leading-none my-2">{Company}</div>
                                                                     <div className="text-sm  lg:text-lg leading-none  text-muted-foreground mb-2">{role}</div>
                                                                     <div className="text-sm lg:text-lg font-medium mb-4">{years}</div>
                                                                 </div>
@@ -320,14 +320,14 @@ const AboutMe = () => {
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex flex-col pt-5">
                             <div className="flex justify-center">
-                                <div className="w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
-                                    <p className="uppercase font-bold text-white">Skills</p>
+                                <div className="w-[12rem] sm:w-[16rem] h-[2.5rem] bg-gradient-to-r from-blue-500 to-[#07D2FB] rounded-2xl flex justify-center items-center border-[3px]">
+                                    <p className="uppercase text-sm sm:text-[16px] font-bold text-white">Skills</p>
                                 </div>
                             </div>
                         </div>
                         <div className="flex flex-col pt-5">
                             <div className="flex justify-center">
-                                <p className="font-bold text-center text-xl">Tools I Use Every day</p>
+                                <p className="font-bold text-center text-[16px] sm:text-xl">Tools I Use Every day</p>
                             </div>
                         </div>
                         <div className="pt-5  w-full">
@@ -338,11 +338,11 @@ const AboutMe = () => {
                                             <div>
                                                 <div className="flex flex-row gap-x-1 text-primary">
                                                     <div className="border-b border-border pt-5 mb-4 flex justify-center">
-                                                        <p className="text-xl font-semibold mb-2">Skills</p>
+                                                        <p className="text-[16px] sm:text-xl font-semibold mb-2">Skills</p>
                                                     </div>
                                                 </div>
                                                 <div className="pt-5">
-                                                    <div>
+                                                    <div className="text-[16px] sm:text-xl">
                                                         {getData(skillData, 'Mobile App Development').title}
                                                     </div>
                                                     <div className="flex flex-row py-5 gap-x-3">
@@ -355,7 +355,7 @@ const AboutMe = () => {
                                                             );
                                                         })}
                                                     </div>
-                                                    <div>
+                                                    <div className="text-[16px] sm:text-xl">
                                                         {getData(skillData, 'Web Development').title}
                                                     </div>
                                                     <div className="flex flex-row py-5 gap-x-3">
@@ -374,7 +374,7 @@ const AboutMe = () => {
                                                 <div>
                                                     <div className="flex flex-row gap-x-1 text-primary">
                                                         <div className="border-b border-border pt-5 mb-4 flex justify-center">
-                                                            <p className="text-xl font-semibold mb-2">Tools</p>
+                                                            <p className="text-[16px] sm:text-xl font-semibold mb-2">Tools</p>
                                                         </div>
                                                     </div>
                                                 </div>

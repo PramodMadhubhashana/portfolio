@@ -18,8 +18,8 @@ const Projects = () => {
   });
   return ( 
     <div className="container pt-12 max-w-[1100px] flex flex-col">
-      <div>
-        <p className="section-title bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
+      <div className="items-center flex justify-center">
+        <p className="text-2xl sm:text-4xl font-bold pb-3 relative items-center bg-gradient-to-r from-blue-600 to-[#07D2FB] bg-clip-text text-transparent align-middle justify-center ">
           My Projects
         </p>
       </div>
@@ -32,7 +32,7 @@ const Projects = () => {
                   onClick={() => setCategory(category)}
                   value={category}
                   key={index}
-                  className="capitalize w-auto">{category}</TabsTrigger>
+                  className="capitalize w-auto text-sm sm:text-base">{category}</TabsTrigger>
               );
             })}
           </TabsList>

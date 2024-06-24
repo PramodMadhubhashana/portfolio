@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center justify-between">
           <div className="flex justify-center pt-10">
-            <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[30px] hover:text-primary transition-all' />
+            <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
           </div>
           <div className="text-muted-foreground text-center pt-5">
-            Copyright &copy; 2024 Pramod Madhubhashana. All rights reserved.
+            Copyright &copy; 2024 Pramod Madhubhashana ❤. All rights reserved.
           </div>
         </div>
       </div>
