@@ -51,7 +51,7 @@ const contact = () => {
     }
   };
   return (
-    <div className="container max-w-[1100px] justify-center items-center flex flex-col h-auto ">
+    <div className="container max-w-[1100px] justify-center items-center flex flex-col h-auto bg-red-300 ">
       <div className="flex flex-col justify-between items-center lg:flex-row w-full">
         <div className="flex flex-col justify-center">
           <div className="flex items-center gap-x-4 text-blue-500 text-lg mb-4">
