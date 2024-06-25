@@ -58,12 +58,12 @@ const contact = () => {
             <span className="w-[30px] h-[2px] bg-blue-500"></span>
             <div>Say Hello 👋</div>
           </div>
-          <div>
-            <div>
-              <h1 className="text-4xl sm:text-5xl font-bold max-w-md mb-8">Let's Work Together</h1>
+          <div className="pt-15 ">
+            <div className="pt-10">
+              <h1 className="text-5xl font-bold max-w-md mb-8">Let's Work Together</h1>
             </div>
             <div>
-              <p className="text-[16px] sm:text-[20px] text-muted-foreground max-w-[480px]">
+              <p className="text-[20px] text-muted-foreground max-w-[480px]">
                 Connect with me via WhatsApp, LinkedIn, Facebook, Instagram, Twitter, and GitHub for inquiries and collaboration.
               </p>
             </div>
@@ -105,7 +105,7 @@ const contact = () => {
                 <MessageSquare className="absolute right-6 top-4" size={20} />
               </div>
               <div className="flex justify-center">
-                <Button type="submit" className='text-sm sm:text-[16px] bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2 max-w-[250px] w-[250px]'>Let's Talk <ArrowRightIcon size={18} /></Button>
+                <Button type="submit" className='text-[16px] bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2 max-w-[250px] w-[250px]'>Let's Talk <ArrowRightIcon size={18} /></Button>
               </div>
             </form>
 
