@@ -89,7 +89,7 @@ const contact = () => {
             <Socials containerStyles='flex flex-row gap-x-5' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
           </div>
         </div>
-        {/* <div className="flex justify-center lg:justify-end w-full">
+        <div className="flex justify-center lg:justify-end w-full">
           <div className="pt-5 lg:pt-0 w-[500px]">
             <form className="flex flex-col gap-y-4" onSubmit={onSubmit}>
               <div className="relative flex items-center">
@@ -110,7 +110,7 @@ const contact = () => {
             </form>
 
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
