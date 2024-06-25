@@ -192,7 +192,7 @@ const AboutMe = () => {
                         <div className="flex justify-center">
                             <div className="w-[20rem] md:w-[24rem] md:min-w-[24rem] flex justify-center">
                                 <Image
-                                    src="/assets/about/WhatsApp.png"
+                                    src="/assets/about/about.png"
                                     width={350}
                                     height={400}
                                     className="bg-gradient-to-r from-blue-500 to-[#07D2FB] custom-rounded2 w-auto h-auto sm:w-[20rem] sm:h-[20rem] md:w-[24rem] md:h-[24rem] flex"
