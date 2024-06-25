@@ -51,7 +51,7 @@ const contact = () => {
     }
   };
   return (
-    <div className="container max-w-[1100px] justify-center items-center flex flex-col ">
+    <div className="container max-w-[1100px] justify-center items-center flex flex-col h-auto ">
       <div className="flex flex-col justify-between items-center lg:flex-row w-full">
         <div className="flex flex-col justify-center">
           <div className="flex items-center gap-x-4 text-blue-500 text-lg mb-4">
@@ -69,11 +69,11 @@ const contact = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="pt-10">
           <Image src='/assets/contact/ContactUs.png' width={500} height={500} alt="" priority />
         </div>
       </div>
-      <div className="w-full flex justify-center flex-col lg:flex-row lg:justify-between pt-5">
+      <div className="w-full flex justify-center flex-col lg:flex-row lg:justify-between pt-20 sm:pt-5">
         <div className="justify-center flex flex-col items-center">
           <div className="text-[16px]">
             {infoData.map((item, index) => {
