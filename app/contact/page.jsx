@@ -51,14 +51,14 @@ const contact = () => {
     }
   };
   return (
-    <div className="container max-w-[1100px] justify-center items-center flex flex-col h-screen ">
+    <div className="container max-w-[1100px] justify-center items-center flex flex-col ">
       <div className="flex flex-col justify-between items-center lg:flex-row w-full">
         <div className="flex flex-col justify-center">
           <div className="flex items-center gap-x-4 text-blue-500 text-lg mb-4">
             <span className="w-[30px] h-[2px] bg-blue-500"></span>
             <div>Say Hello 👋</div>
           </div>
-          <div className="pt-15 ">
+          <div>
             <div className="pt-10">
               <h1 className="text-5xl font-bold max-w-md mb-8">Let's Work Together</h1>
             </div>
