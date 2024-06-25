@@ -39,7 +39,9 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
-          {children}
+          <main className="flex-grow container max-w-[1200px] mx-auto p-4">
+            {children}
+          </main>
           <Footer />
         </ThemeProvider>
       </body>
