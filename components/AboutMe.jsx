@@ -171,8 +171,8 @@ const AboutMe = () => {
                     <div>
                         <Badge
                             icon={<RiTodoFill />}
-                            endCountNumber={5}
-                            endCountText="0"
+                            endCountNumber={1}
+                            endCountText="k"
                             badgeText="Finished Project"
                             containerStyle="relative"
                         />
@@ -181,7 +181,7 @@ const AboutMe = () => {
                         <Badge
                             icon={<RiTeamFill />}
                             endCountNumber={5}
-                            endCountText="00"
+                            endCountText="k"
                             badgeText="Happy Clients"
                             containerStyle="relative"
                         />

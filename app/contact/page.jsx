@@ -101,7 +101,7 @@ const contact = () => {
                 <MailIcon className="absolute right-6" size={20} />
               </div>
               <div className="relative flex items-center">
-                <Textarea name="message" placeholder='Type Your Message Here.' className='min-h-[180px]' required />
+                <Textarea name="message" placeholder='Type Your Message Here.' className='h-[180px]' required />
                 <MessageSquare className="absolute right-6 top-4" size={20} />
               </div>
               <div className="flex justify-center">
