@@ -295,14 +295,14 @@ const AboutMe = () => {
                                                         const { Company, role, years } = item;
                                                         return (
                                                             <div className="flex gap-x-8 group " key={index}>
-                                                                <div className="h-[84px] w-[1px] bg-border relative ml-2">
+                                                                {/* <div className="h-[84px] w-[1px] bg-border relative ml-2">
                                                                     <div className="w-[11px] h-[11px] rounded-full bg-blue-500 absolute -left-[5px] group-hover:translate-y-[84px] transition-all duration-500"></div>
                                                                 </div>
                                                                 <div>
-                                                                    {/* <div className="font-semibold text-base sm:text-lg leading-none my-2">{Company}</div>
+                                                                    <div className="font-semibold text-base sm:text-lg leading-none my-2">{Company}</div>
                                                                     <div className="text-sm  lg:text-lg leading-none  text-muted-foreground mb-2">{role}</div>
-                                                                    <div className="text-sm lg:text-lg font-medium mb-4">{years}</div> */}
-                                                                </div>
+                                                                    <div className="text-sm lg:text-lg font-medium mb-4">{years}</div>
+                                                                </div> */}
                                                             </div>
                                                         );
                                                     })}
