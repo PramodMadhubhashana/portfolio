@@ -35,7 +35,7 @@ export const projectData = [
         image: '/assets/work/quiz.jpg',
         category: 'React Native',
         name: 'QuizQ',
-        description: '🎉 Excited to share my latest project! 🎉<br/>I just finished designing a simple quiz app using React Native. This app allows users to take quizzes on various topics, track their scores, and improve their knowledge in a fun and interactive way.<br/>Some key features include:<br/>User-friendly interface<br/>Variety of quiz topics<br/>Score tracking<br/>Check out the project and let me know what you think! 💡',
+        description: '🎉 Excited to share my latest project! 🎉 I just finished designing a simple quiz app using React Native. This app allows users to take quizzes on various topics, track their scores, and improve their knowledge in a fun and interactive way. Some key features include a user-friendly interface, a variety of quiz topics, and score tracking and feedback. Check out the project and let me know what you think! 💡',
         link: '/',
         github: 'https://github.com/PramodMadhubhashana/QuizQ.git'
     },
