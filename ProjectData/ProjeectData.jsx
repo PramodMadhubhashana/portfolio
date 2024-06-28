@@ -1,5 +1,21 @@
 export const projectData = [
     {
+        image: '/assets/work/loginSignUp.jpg',
+        category: 'React Native',
+        name: 'Login-SignUp-UI',
+        description: '🎨 Skilled in crafting responsive login and sign-up UIs with React Native, React Native Reanimated, Tailwind CSS, and React Navigation. 🚀 Bringing smooth animations and modern design to enhance user experience. 📱',
+        link: '/',
+        github: 'https://github.com/PramodMadhubhashana/Login-SignUp.git'
+    },
+    {
+        image: '/assets/work/quiz.jpg',
+        category: 'React Native',
+        name: 'QuizQ',
+        description: '🎉 Excited to share my latest project! 🎉 I just finished designing a simple quiz app using React Native. This app allows users to take quizzes on various topics, track their scores, and improve their knowledge in a fun and interactive way. Some key features include a user-friendly interface, a variety of quiz topics, and score tracking and feedback. Check out the project and let me know what you think! 💡',
+        link: '/',
+        github: 'https://github.com/PramodMadhubhashana/QuizQ.git'
+    },    
+    {
         image: '/assets/work/1717395285827.jpeg',
         category: 'web',
         name: 'NextStyle',
@@ -31,12 +47,5 @@ export const projectData = [
         link: '/',
         github: 'https://github.com/PramodMadhubhashana/cubic_cal.git'
     },
-    {
-        image: '/assets/work/quiz.jpg',
-        category: 'React Native',
-        name: 'QuizQ',
-        description: '🎉 Excited to share my latest project! 🎉 I just finished designing a simple quiz app using React Native. This app allows users to take quizzes on various topics, track their scores, and improve their knowledge in a fun and interactive way. Some key features include a user-friendly interface, a variety of quiz topics, and score tracking and feedback. Check out the project and let me know what you think! 💡',
-        link: '/',
-        github: 'https://github.com/PramodMadhubhashana/QuizQ.git'
-    },
+    
 ];
