@@ -53,7 +53,7 @@ const Reviews = () => {
                         {person.review}
                       </CardDescription>
                     </div>
-                    <div className="flex justify-center items-center">
+                    <div className="flex justify-center items-center pt-10">
                       <Image src={person.image} className="relative bottom-0 shadow-2xl object-contain h-full w-full"
                         width={500}
                         height={500}
