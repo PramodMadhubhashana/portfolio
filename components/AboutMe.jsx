@@ -152,7 +152,7 @@ const AboutMe = () => {
         return arr.find((item) => item.title === title);
     };
     return (
-        <div className="shadow-2xl dark:bg-[#041120] py-4 container max-w-[1100px]">            
+        <div className="shadow-2xl dark:bg-[#041120] py-4 container max-w-[1100px]">
             <div className="flex flex-col">
                 <div className="container flex justify-center pb-10">
                     <p className="text-2xl sm:text-4xl font-bold relative flex items-start gradient-text align-middle justify-center ">
@@ -208,10 +208,10 @@ const AboutMe = () => {
                             <div className="flex flex-col justify-center">
                                 <div className="flex flex-col text-center pt-5">
                                     <p className="break-words overflow-x-auto text-xl font-bold">
-                                        Unmatched Service Quality for Over 1 Years
+                                        Consistently Unmatched Service Quality
                                     </p>
-                                    <p className="subtitle pt-2">                                        
-                                    Proficient in Android and web development, with a focus on creating impactful software solutions. Continuously enhancing skills and exploring latest technologies
+                                    <p className="subtitle pt-2">
+                                        Proficient in Android and web development, with a focus on creating impactful software solutions. Continuously enhancing skills and exploring latest technologies
                                     </p>
                                 </div>
                             </div>
@@ -396,7 +396,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>

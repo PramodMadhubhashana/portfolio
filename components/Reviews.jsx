@@ -32,7 +32,7 @@ const Reviews = () => {
             {reviewData.map((person, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <Card className='p-8 min-h-[300px]'>
+                  <Card className='p-8 group  md:h-[550px] relative h-[450px] ' >
                     <CardHeader className='p-0 mb-10'>
                       <div className="flex items-center gap-x-4">
                         <Image src={person.avater}
@@ -48,9 +48,19 @@ const Reviews = () => {
                         </div>
                       </div>
                     </CardHeader>
-                    <CardDescription className='text-lg text-muted-foreground'>
-                      {person.review}
-                    </CardDescription>
+                    <div className="h-auto">
+                      <CardDescription className='text-sm  text-muted-foreground'>
+                        {person.review}
+                      </CardDescription>
+                    </div>
+                    <div>
+                      <Image src={person.image} className="relative bottom-0 shadow-2xl object-contain h-full w-full"
+                        width={500}
+                        height={500}
+                        alt=""
+                        priority
+                      />
+                    </div>
                   </Card>
                 </SwiperSlide>
               );
