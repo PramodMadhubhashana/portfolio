@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/header";
 import { ThemeProvider } from "@/components/themeProvider";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,7 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content={metadata.description} />
-        <meta name="keywords" content="Pramod Madhubhashna, Mobile App Developer, Web Developer, Flutter, Kotlin, React Native, HTML, CSS, PHP, Bootstrap, Tailwind CSS, NIBM" />
+        <meta name="keywords" content="Pramod Madhubhashna, Mobile App Developer, Web Developer, Flutter, Kotlin, React Native, HTML, CSS, PHP, Bootstrap, Tailwind CSS, NIBM, Pramod, Madhubhashana, wppmadhubhashana" />
         <meta name="author" content="Pramod Madhubhashna" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
@@ -37,7 +38,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:image" content={metadata.image} />
         <meta name="twitter:site" content={metadata.twitterHandle} />
         <meta property="linkedin:profile" content={metadata.linkedinProfile} />
-      </Head>
+      </Hea>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
