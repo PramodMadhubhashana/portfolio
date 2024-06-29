@@ -19,23 +19,25 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <title>{metadata.title}</title>
-      <link rel="icon" href="/assets/logo/LogoBlackpng.svg" />
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content={metadata.description} />
-      <meta name="keywords" content="Pramod Madhubhashna, Mobile App Developer, Web Developer, Flutter, Kotlin, React Native, HTML, CSS, PHP, Bootstrap, Tailwind CSS, NIBM" />
-      <meta name="author" content="Pramod Madhubhashna" />
-      <meta property="og:title" content={metadata.title} />
-      <meta property="og:description" content={metadata.description} />
-      <meta property="og:image" content={metadata.image} />
-      <meta property="og:url" content={metadata.url} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={metadata.title} />
-      <meta name="twitter:description" content={metadata.description} />
-      <meta name="twitter:image" content={metadata.image} />
-      <meta name="twitter:site" content={metadata.twitterHandle} />
-      <meta property="linkedin:profile" content={metadata.linkedinProfile} />
+      <Head>
+        <title>{metadata.title}</title>
+        <link rel="icon" href="/assets/logo/LogoBlackpng.svg" />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content="Pramod Madhubhashna, Mobile App Developer, Web Developer, Flutter, Kotlin, React Native, HTML, CSS, PHP, Bootstrap, Tailwind CSS, NIBM" />
+        <meta name="author" content="Pramod Madhubhashna" />
+        <meta property="og:title" content={metadata.title} />
+        <meta property="og:description" content={metadata.description} />
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:url" content={metadata.url} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={metadata.title} />
+        <meta name="twitter:description" content={metadata.description} />
+        <meta name="twitter:image" content={metadata.image} />
+        <meta name="twitter:site" content={metadata.twitterHandle} />
+        <meta property="linkedin:profile" content={metadata.linkedinProfile} />
+      </Head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
