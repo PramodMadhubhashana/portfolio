@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
         <meta name="twitter:image" content={metadata.image} />
         <meta name="twitter:site" content={metadata.twitterHandle} />
         <meta property="linkedin:profile" content={metadata.linkedinProfile} />
-      </Hea>
+      </Head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <Header />
