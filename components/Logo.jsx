@@ -13,7 +13,7 @@ const greatVibes = Great_Vibes({
 const Logo = () => {
   return (
     <Link href='/'>      
-        <Image src='/assets/logo/LogoBlackpng.svg' className='dark:invert' width={60} height={60}/>
+        <Image src='/assets/logo/LogoBlackpng.svg' type="image/svg+xml" className='dark:invert' width={60} height={60}/>
     </Link>
   )
 }
