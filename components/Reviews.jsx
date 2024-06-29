@@ -32,7 +32,7 @@ const Reviews = () => {
             {reviewData.map((person, index) => {
               return (
                 <SwiperSlide key={index}>
-                  <Card className='p-8 group  md:h-[550px] relative h-[450px] ' >
+                  <Card className='p-8 group  md:h-[550px] relative h-[400px] ' >
                     <CardHeader className='p-0 mb-10'>
                       <div className="flex items-center gap-x-4">
                         <Image src={person.avater}
