@@ -10,7 +10,7 @@ export const metadata = {
   title: 'Pramod Madhubhashna - Mobile App and Web Developer',
   description: 'Pramod Madhubhashna - Mobile App and Web Developer. Specializing in Flutter, Kotlin, React Native for mobile development and HTML, CSS, PHP, Bootstrap, Tailwind CSS for web development.',
   url: 'https://www.pramodmadhubhashana.com/',
-  image: '/assets/logo/meta.png',
+  image: '/assets/logo/LogoBlackpng.svg',
   twitterHandle: '@P_madhubhashana',
   linkedinProfile: 'www.linkedin.com/in/pramod-madhubhashana',
 };
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <title>{metadata.title}</title>
-      <link rel="icon" href="/assets/logo/LogoBlackpng.png" />
+      <link rel="icon" href="/assets/logo/LogoBlackpng.svg" />
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={metadata.description} />
