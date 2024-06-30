@@ -11,13 +11,13 @@ export const pageLink = [
 
 
 
-const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
+const Nav = ({ containerStyles, linkStyles, underlineStyles, onclicklinks }) => {
     const path = usePathname();
     return <nav className={`${containerStyles}`}>
         {pageLink.map((link, index) => {
             return (
 
-                <Link href={link.path}
+                <Link href={link.path} onClick={onclicklinks}
                     key={index}
                     className={`capitalize ${linkStyles}`}
                 >

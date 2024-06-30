@@ -20,8 +20,7 @@ const Header = () => {
 
 
   return (
-    <header className={`${header ? 'py-4 bg-white shadow-lg dark:bg-[#0F172A]' : 'py-6 bg-background'} 
-    sticky top-0 z-30 `}>
+    <header className={`${header ? 'py-4 bg-white shadow-lg dark:bg-[#0F172A]' : 'py-6 bg-background'} sticky top-0 z-30 `}>
       <div className="container max-auto">
         <div className="flex justify-between items-center">
           <Logo />

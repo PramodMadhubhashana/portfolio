@@ -5,7 +5,7 @@ import {  RiLinkedinFill,RiGithubFill,RiFacebookFill, RiInstagramFill, RiWhatsap
 
 const icons =[
   {
-    path: 'www.linkedin.com/in/pramod-madhubhashana',
+    path: 'https://www.linkedin.com/in/pramodmadhubhashana/',
     name : <RiLinkedinFill/>
   },
   {
@@ -30,12 +30,12 @@ const icons =[
   }
 ];
 
-const Socials = ({containerStyles, iconsStyle}) => {
+const Socials = ({containerStyles, iconsStyle, onClickSocial}) => {
   return (
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) =>{
         return(
-          <Link href={icon.path} key={index}>
+          <Link href={icon.path} key={index} onClick={onClickSocial}>
             <div className={`${iconsStyle}`}>{icon.name}</div>
           </Link>
         )
