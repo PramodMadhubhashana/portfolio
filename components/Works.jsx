@@ -7,6 +7,8 @@ import { Pagination } from 'swiper/modules';
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { projectData } from "@/ProjectData/ProjeectData";
+import { RiArrowDropRightFill } from "react-icons/ri";
+import { ArrowBigRight } from "lucide-react";
 
 const Works = () => {
     return (
@@ -24,7 +26,7 @@ const Works = () => {
                         </div>
                         <div className="py-10 justify-center flex">
                             <Link href='/projects' passHref>
-                                <Button className='text-sm sm:text-[16px] bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>All Project</Button>
+                                <Button className='text-sm sm:text-[16px] bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>All Project<ArrowBigRight size={18}/></Button>
                             </Link>
                         </div>
                     </div>
