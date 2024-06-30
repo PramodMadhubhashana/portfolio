@@ -7,7 +7,6 @@ import { Pagination } from 'swiper/modules';
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { projectData } from "@/ProjectData/ProjeectData";
-import { RiArrowDropRightFill } from "react-icons/ri";
 import { ArrowBigRight } from "lucide-react";
 
 const Works = () => {
