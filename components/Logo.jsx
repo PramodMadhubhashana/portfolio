@@ -6,7 +6,7 @@ const Logo = ({onClickCloseSheet}) => {
   return (
     <div>
       <Link href='/' onClick={onClickCloseSheet}>
-        <Image src='/assets/logo/LogoBlackpng.png' className='dark:invert' width={60} height={60} />
+        <Image src='/assets/logo/LogoBlackpng.png' className='dark:invert' width={60} height={60} alt="Website Logo"/>
       </Link>
     </div>
   )
