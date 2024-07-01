@@ -70,7 +70,7 @@ const contact = () => {
           </div>
         </div>
         <div className="pt-10">
-          <Image src='/assets/contact/ContactUs.png' width={500} height={500} alt="" priority />
+          <Image src='/assets/contact/ContactUs.svg' width={500} height={500} alt="" priority/>
         </div>
       </div>
       <div className="w-full flex justify-center flex-col lg:flex-row lg:justify-between pt-20 sm:pt-5">
