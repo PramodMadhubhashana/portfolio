@@ -18,13 +18,15 @@ const Hero = () => {
                             <p className="text-[36px] font-bold">Hello, My name is <br /></p><p className=" h1 gradient-text inline-block align-middle justify-center flex-auto">Pramod Madhubhashana</p>
                         </div>
                         <p className="subtitle max-w-[490px]  ">
-                        A Software Engineering undergraduate at the National Institute of Business Management, focuses on Android and web development, aiming to create impactful software solutions through continuous learning and innovation.
+                            A Software Engineering undergraduate at the National Institute of Business Management, focuses on Android and web development, aiming to create impactful software solutions through continuous learning and innovation.
                         </p>
                         <div className="flex justify-center flex-col md:flex-row gap-x-3 gap-y-3 mx-auto pt-10 xl:mx-0 mb-12">
                             <Link href='/contact'>
                                 <Button className='bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>Contact Me <Send size={18} /></Button>
                             </Link>
-                            <Button className=" bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2">Download CV <Download size={18} /></Button>
+                            <Link href='https://drive.google.com/file/d/1u2aWBj1-JfRdfc4MH30_7nvxN7FW3YRf/view?usp=sharing' download='Pramod_Madhubhashana_CV.pdf' rel="noopener noreferrer" target="_blank">
+                                <Button className=" bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2">Download CV <Download size={18} /></Button>
+                            </Link>
                         </div>
                         <div className="flex justify-center">
                             <Socials containerStyles='flex gap-x-6 mx-auto relative pb-1' iconsStyle='text-foreground text-[25px] sm:text-[30px] hover:text-primary transition-all' />
@@ -35,7 +37,7 @@ const Hero = () => {
                             <div className="font-bold text-2xl text-blue-600 dark:text-[#07D2FB] blur-[0.05rem] absolute justify-start">+</div>
                             <div className="m-0">
                                 {/* <Image src='/assets/hero/developer.png' width={400} height={400} className="bg-gradient-to-r from-blue-500 to-[#07D2FB] custom-rounded  w-[20rem] h-[20rem]  md:w-[26rem] md:h-[26rem] flex align-bottom" /> */}
-                                <Image src='/assets/hero/Untitled.png' width={420} height={420}/>
+                                <Image src='/assets/hero/Untitled.png' width={420} height={420} />
                             </div>
                         </div>
                         <div className="bg-blue-600 dark:bg-[#07D2FB] w-[1rem] h-[1rem] rounded-full blur-[0.1rem] align-middle justify-center">
