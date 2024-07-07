@@ -36,7 +36,7 @@ const Works = () => {
                             slidesPerView: 2
                         }
                     }} spaceBetween={30} modules={[Pagination]} pagination={{ clickable: true }}>
-                        {projectData.slice(0.4).map((project, index) => {
+                        {projectData.slice(0, 4).map((project, index) => {
                             return (
                                 <SwiperSlide key={index}>
                                     <ProjectCard project={project} />
