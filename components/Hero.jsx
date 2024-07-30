@@ -24,7 +24,7 @@ const Hero = () => {
                             <Link href='/contact'>
                                 <Button className='bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2'>Contact Me <Send size={18} /></Button>
                             </Link>
-                            <Link href='https://drive.google.com/file/d/1u2aWBj1-JfRdfc4MH30_7nvxN7FW3YRf/view?usp=sharing' download='Pramod_Madhubhashana_CV.pdf' rel="noopener noreferrer" target="_blank">
+                            <Link href='https://drive.google.com/file/d/1L06YQWkYq0JwT2K68nx-qaH7tgUKSzV5/view?usp=sharing' download='Pramod_Madhubhashana_CV.pdf' rel="noopener noreferrer" target="_blank">
                                 <Button className=" bg-gradient-to-r from-blue-500 to-[#07D2FB] text-white gap-x-2">Download CV <Download size={18} /></Button>
                             </Link>
                         </div>
